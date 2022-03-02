@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 pyrep_src="../PyRep"
-env_name="catalystenv"
+env_name="catalystenv3.6"
 tensorboard_port=6380
 useGPU=0
 useDBPORT=13013
-logs_folder=/home/$USER/Desktop
+logs_folder=./logs
 series_name=tutorial_training
 config=./configs/config.yml
 seed=42

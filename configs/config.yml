@@ -105,7 +105,7 @@ trainer:
   replay_buffer_mode: memmap
   min_num_transitions: 2000    # transitions
 
-  save_period: 50             # epochs
+  save_period: 10             # epochs
   weights_sync_period: 1       # epochs
   target_update_period: 1      # batches
 

@@ -54,7 +54,7 @@ def _get_convolution_net(
         layers.extend(_get_block(**block_params))
 
     net = nn.Sequential(*layers)
-    net.apply(utils.initialization.get_optimal_inner_init(activation_fn))
+    net.apply(utils.torch.get_optimal_inner_init(activation_fn))
     return net
 
 
@@ -96,7 +96,7 @@ def _get_linear_net(
         layers.extend(_get_block(**block_params))
 
     net = nn.Sequential(*layers)
-    net.apply(utils.initialization.get_optimal_inner_init(activation_fn))
+    net.apply(utils.torch.get_optimal_inner_init(activation_fn))
 
     return net
 
