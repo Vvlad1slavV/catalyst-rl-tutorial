@@ -1,5 +1,5 @@
 args:
-  logdir: ./logs/rl-gym-td3  #  change me
+  logdir: ./logs/tutorial_training/logs/220302-1853-config
   expdir: src
 
   vis: 0
@@ -9,7 +9,7 @@ args:
 
 db:
   db: MongoDB
-  port: 12000
+  port: 13013
   prefix: td3
 
 environment:

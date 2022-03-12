@@ -1,6 +1,10 @@
 opencv-python==4.3.0.36
 opencv-contrib-python==4.3.0.36
 opencv-python-headless==4.3.0.36
+
 catalyst
 catalyst-rl
 pillow<7
+
+imageio == 2.9.0
+wandb
