@@ -1,5 +1,5 @@
 args:
-  logdir: ./logs/tutorial_training/logs/220302-1853-config
+  logdir: ./logs/tutorial_training/logs/220317-1609-config
   expdir: src
 
   vis: 0
